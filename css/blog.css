@@ -179,3 +179,21 @@ pie de pagina
 	font-size: 11px;
 	padding: 20px 0 0 20px;
 }
+
+
+/*ir arriba*/
+.ir-arriba{
+    display:inline-block;
+    padding: 15px;
+    background-color: #1a2952;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0px;
+    right: 275px;
+}
+
+.ir-arriba:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}

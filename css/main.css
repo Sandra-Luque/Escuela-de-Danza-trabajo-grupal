@@ -27,18 +27,25 @@
 banner
 -----------------------------------------------*/
 .banner{
-	height: 285px;
+    height: 285px;
 }
 .img-banner{
-	width: 100%;
+    width: 100%;
     height: 100%;
-    background: url(../img/dance_1.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 135%;
+   overflow: hidden;
     position: relative;
 }
+.img-banner ul li{
+    height: 375px;
+    
+}
+.img-banner ul li img{
+    width: 100%;
+    height: 100%;
+}
+
 .info-banner{
-	position: absolute;
+    position: absolute;
     color: #c7cccd;
     top: 72px;
     height: 170px;
@@ -46,10 +53,13 @@ banner
     left: 90px;
     font-size: 24px;
 }
+.info-banner li{
+    list-style: none;
+}
 .info-banner p{
-	@font-face{
-	font-family:Latolight ;
-	src: url(../fonts/Latolight.ttf);
+    @font-face{
+    font-family:Latolight ;
+    src: url(../fonts/Latolight.ttf);
 }
 }
 .info-banner p{
@@ -60,35 +70,37 @@ margin-bottom: 15px;
 }
 .info-banner a{
     text-decoration: none;
-	background: #020f1c;
-	font-size: 10px;
-	color: #c7cccd;
-	padding: 7px 20px;
-	margin-bottom: 10px;
+    background: #020f1c;
+    font-size: 10px;
+    color: #c7cccd;
+    padding: 7px 20px;
+    margin-bottom: 10px;
 }
 .info-nos {
-	text-align: center;
-	height: 280px;
+    text-align: center;
+    height: 280px;
 }
 .info-nos p{
-	padding: 40px 239px 0 239px ;
+    padding: 40px 239px 0 239px ;
 
 }
 .info-nos .decor-1{
-	margin:auto;
-	background: url(../img/decoration_1.png);
-	width: 100px;
-	height: 100px;
-	background-size: 100% 100%;
+    margin:auto;
+    background: url(../img/decoration_1.png);
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
 }
 .info-nos a{
-	background: #1a2952;
-	color: #c7cccd;
+    background: #1a2952;
+    color: #c7cccd;
     padding: 13px 55px;
     border-radius: 3px;
     text-decoration: none;
     font-size: 13px;
 }
+
+
 .img-instruct{
 	position: relative;
 	width: 100%;
@@ -108,6 +120,7 @@ margin-bottom: 15px;
     left: 50%;
    	background-size: 100% 161.5%;
 }
+
 .img-instruct a{
 	text-align: center;
 	color: #c7cccd;
@@ -292,4 +305,20 @@ pie de pagina
 	position: absolute;
 	font-size: 11px;
 	padding: 20px 0 0 20px;
+}
+/*ir arriba*/
+.ir-arriba{
+    display:inline-block;
+    padding: 15px;
+    background-color: #1a2952;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0px;
+    right: 275px;
+}
+
+.ir-arriba:hover {
+  background-color: rgba(0, 0, 0, 0.6);
 }

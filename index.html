@@ -6,6 +6,7 @@
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
 	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
@@ -17,23 +18,30 @@
 			</div>
 			<div class="menu">
 				<ul>
-					<li><a href="nosotros.html">Nosotros</a></li>
-					<li><a href="clases.html">Clases</a></li>
-					<li><a href="blog.html">Blog</a></li>
-					<li><a href="">Contactanos</a></li>
+					<li><a class="transicion" href="nosotros.html">Nosotros</a></li>
+					<li><a class="transicion" href="clase.html">Clases</a></li>
+					<li><a class="transicion" href="blog.html">Blog</a></li>
+					<li><a href="#contacto">Contactanos</a></li>
 				</ul>
 			</div>
 		</div>
 		<div class=" banner">
 			<div class=" img-banner">
+				<ul class="img-bn">
+					<li><img src="img/slider1.jpg" alt="" title="" /></li>
+
+					<li><img src="img/slider2.jpg" alt="" title="" /></li>
+
+					<li><img src="img/slider3.jpg" alt="" title="" /></li>
+				</ul>
 				<div class="info-banner">
-					<h1>STUDIO</h1>
+					<h1 class="s">STUDIO</h1>
 					<p>Julliart Studios is the perfect place to find your feet with over 20 unique styles of dance and 80 teachers to choose from.
 					</p>
 					<a href="">
 						<span>Inscribete</span>
 					</a>
-				</div>
+			</div>
 			</div>
 		</div>
 		<div class=" info-nos">
@@ -56,10 +64,7 @@
 		</div>
 		<div class=" ubicacion">
 			<div class="info-ubi">
-				<p>Dirección: Malecón Grau 140 (antes Calle Lima)
-				Referencia: Antes del puente agua dulce a unos metros del colegio Sagrado Corazón Chalet 
-				Teléfono: 252-7050 / 252-7531 / 467-1052
-				Mail: sedechorrillos@d1-dance.com</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
 				<h2>Visítanos</h2>
 				<p>The Juiliard School<br> 60 Lincoln Center Plaza<br> New York, NY 10023<br> (212) 799-5000</p>
 			</div>
@@ -69,7 +74,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="cont-contactanos">	
+		<div class="cont-contactanos" id="contacto">	
 			<div class="contenedor-formulario">
 			<h3>Contactanos</h3>
 			<form action="" class="formulario" name="formulario_registro" method="get">
@@ -99,8 +104,16 @@
 		<div class="pie">
 			<label> © Escuela de danza. Todos los derechos reservados.</label>
 		</div>
-
+		<span class="ir-arriba fa fa-hand-o-up"></span>
 	</div>
-	<script src="js/formulario.js"></script>
+	
+
+
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	    <script src="js/jquery.bxslider.min.js"></script>
+	    <script type="text/javascript" src="js/banner.js"></script>
+	    <script type="text/javascript" src="js/scroll-nemu.js"></script>
+		<script src="js/formulario.js"></script>
+		<script type="text/javascript" src="js/transition.js"></script>
 </body>
 </html>
