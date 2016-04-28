@@ -38,17 +38,20 @@
 }
 .cont-ifnos .pilares{
 	display: inline-block;
-	width: 185px;
+	width: 234px;
     margin: 25px;
     color: #c7cccd;
 }
 .cont-ifnos .pilares h4{
+    vertical-align: top;
 	font-size: 20px;
+    color:  #1a2952;
 	padding: 10px;
 }
 .cont-ifnos .pilares label{
-	font-size: 10px;
-    padding: 0 10px;;
+	font-size: 15px;
+    padding: 0 10px;
+    color:#162449;
 }
 .cont-ifnos .pilares hr{
 	margin: 10px;
@@ -69,6 +72,9 @@ instructores
     height: 130px;
     margin: 10px;
     margin-bottom: 150px;
+}
+..galery-instruc li p{
+    color:  #1a2952; 
 }
 .galery-instruc .Photo-1{
 	background: url(../img/profesor_4.jpg);
